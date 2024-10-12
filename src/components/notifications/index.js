@@ -51,7 +51,7 @@ import WeCom from "./WeCom.vue";
 import GoAlert from "./GoAlert.vue";
 import ZohoCliq from "./ZohoCliq.vue";
 import Splunk from "./Splunk.vue";
-// import JdMe from "./JdMe.vue";
+import JdMe from "./JdMe.vue";
 /**
  * Manage all notification form.
  *
@@ -108,7 +108,7 @@ const NotificationFormList = {
     "Splunk": Splunk,
     "webhook": Webhook,
     "WeCom": WeCom,
-    // "JdMe":JdMe,
+    "JdMe":JdMe,
     "GoAlert": GoAlert,
     "ServerChan": ServerChan,
     "ZohoCliq": ZohoCliq

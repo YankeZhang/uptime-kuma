@@ -187,7 +187,7 @@ fi
 fi
   mkdir -p $installPath
   cd $installPath
-  git clone https://github.com/louislam/uptime-kuma.git .
+  git clone https://github.com/YankeZhang/uptime-kuma.git .
   npm run setup
   pm2 start server/server.js --name uptime-kuma -- --port=$port
 else

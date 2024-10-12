@@ -12,7 +12,7 @@ module.exports = defineConfig({
         videosFolder: "test/cypress/videos",
         downloadsFolder: "test/cypress/downloads",
         supportFile: "test/cypress/support/e2e.js",
-        baseUrl: "http://localhost:3002",
+        baseUrl: "http://localhost:3001",
         defaultCommandTimeout: 10000,
         pageLoadTimeout: 60000,
         viewportWidth: 1920,
@@ -23,6 +23,6 @@ module.exports = defineConfig({
         ],
     },
     env: {
-        baseUrl: "http://localhost:3002",
+        baseUrl: "http://localhost:3001",
     },
 });
